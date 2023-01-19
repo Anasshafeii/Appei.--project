@@ -1,0 +1,63 @@
+/* 
+
+-- 01 Typography System
+
+- FONT SIZE (px) :
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+
+--02 SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+/* ****************************** */
+/* Reusable Components */
+/* ******************************* */
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.heidng {
+  font-size: 3.4rem;
+  color: #0e1133;
+  margin-bottom: 1.5rem;
+}
