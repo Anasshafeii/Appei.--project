@@ -1,5 +1,34 @@
-/* 870px for smaller screens */
-@media (max-width: 54em) {
+/* 1184px */
+
+@media (max-width: 74em) {
+  .to-above-btn {
+    margin-left: 22rem;
+    margin-top: 1rem;
+  }
+
+  .copyright {
+    margin-right: 8rem;
+  }
+
+  .fo-btns-box {
+    margin-left: 4rem;
+  }
+
+  .hero-link {
+    margin-left: 7rem;
+  }
+
+  .img-how-2-2 {
+    display: none;
+  }
+
+  .how-2-btns {
+    display: none;
+  }
+}
+
+/* 760px for smaller screens */
+@media (max-width: 47.5em) {
   .main-nav {
     position: absolute;
     top: 0;
@@ -50,11 +79,7 @@
   .nav-open .mobile-nav-icon-close {
     display: block;
   }
-}
 
-/* 600px for phones */
-
-@media (max-width: 38em) {
   .mobile-nav-btns {
     display: block;
     z-index: 9999;
@@ -98,9 +123,8 @@
   }
 
   .hero-link {
-    margin: 0 auto;
+    margin-left: 2rem;
     width: 48rem;
-    margin: 0 auto;
   }
 
   .hero-imgs-box {
@@ -198,8 +222,8 @@
   }
 
   .border-icon {
-    top: 44px;
-    left: 210px;
+    top: 85px;
+    left: 324px;
   }
 
   .for-phones-hidden {
@@ -226,11 +250,11 @@
   }
 
   .down-text span {
-    margin-left: 20rem;
+    margin-left: 14rem;
     margin-bottom: 3rem;
   }
   .down-btns {
-    margin-left: 8rem;
+    margin-left: 1rem;
   }
 
   .plans-box {
@@ -240,8 +264,8 @@
 
   .sec-box {
     flex-direction: column;
-    width: 45rem;
-    height: 50rem;
+    width: 36rem;
+    height: 55rem;
     background-image: url();
     background-color: #2c6ff4;
   }
@@ -253,6 +277,7 @@
   .tes-text {
     line-height: 2;
     font-size: 1.3rem;
+    text-align: center;
   }
 
   .tes-btns-text {
@@ -313,6 +338,44 @@
   }
 
   .to-above-btn {
-    left: 55rem;
+    margin-left: 12rem;
+  }
+
+  .copyright {
+    margin: 0;
+  }
+}
+
+/* 416px for phones */
+
+@media (max-width: 26em) {
+  .border-icon {
+    top: 25px;
+    left: 140px;
+  }
+
+  .for-desktop-hidden-heading {
+    font-size: 2rem;
+  }
+
+  .main-nav-cta-link:link,
+  .main-nav-cta-link:visited {
+    margin-left: -20rem;
+  }
+
+  .hero-link {
+    width: 30rem;
+  }
+
+  .row-2-box {
+    width: 30rem;
+  }
+
+  .head-text p {
+    font-size: 1.2rem;
+  }
+
+  .img-sec-4 {
+    margin-left: 10rem;
   }
 }
